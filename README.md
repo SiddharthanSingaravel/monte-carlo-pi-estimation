@@ -48,6 +48,9 @@ $$\begin{equation}
 \pi \approx 4 \cdot \frac{P_{\text{inside}}}{P}
 \end{equation}$$
 
+where <br> $P_{\text{inside}}$ is the number of points inside the circle
+<br> $P$ is the total number of points (or trials)
+
 ![Simulation Results for 50000 data points](results/simulation)
 
 
