@@ -8,6 +8,12 @@ The name references the famous [Monte Carlo Casino](https://en.wikipedia.org/wik
 
 Metropolis, N., & Ulam, S. (1949). The Monte Carlo Method. *Journal of the American Statistical Association, 44*(247), 335–341. https://doi.org/10.2307/2280232
 
+<p align="center">
+  <img src="results/tweet.png" alt="Tweet" width="600" height="150">
+  <br>
+  <em>Figure 1: Monte Carlo is the answer.</em>
+</p>
+
 ## How to estimate π using that?
 ### But, why does this work?
 It's because the randomly generated points are uniformly distributed over the area of the square and the proportion of points inside the circle is representative of the circle's area relative to the square's area.
@@ -51,7 +57,22 @@ $$\begin{equation}
 where <br> $P_{\text{inside}}$ is the number of points inside the circle
 <br> $P$ is the total number of points (or trials)
 
-![Simulation Results for 50000 data points](results/simulation)
+
+<p align="center">
+  <img src="results/simulation" alt="Simulations" width="600" height="600">
+  <br>
+  <em>Figure 2: Simulation results for 50000 data points.</em>
+</p>
+
+### Trials vs Accuracy
+By the law of large numbers, the estimation accuracy increases considerably with number of trials. Pictured here is only the initial 500 results of the experiment.
+<p align="center">
+  <img src="results/trialsVsAccuracy" alt="Trials vs Accuracy" width="1000" height="300">
+  <br>
+  <em>Figure 3: Trials vs Accuracy.</em>
+</p>
+
+
 
 
 
