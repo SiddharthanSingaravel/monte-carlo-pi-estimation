@@ -42,13 +42,13 @@ Remember, more the points you throw, the better the model approximates.
         return (point.iloc[0] - radius)**2 + (point.iloc[1] - radius)**2 <= radius**2
 ```
 ## Results
-With 10 million randomly generated trials, the value of pi is approximated to be 3.1418212
+With 10 million randomly generated trials, the value of pi is approximated to be __3.1418212__
 
 $$\begin{equation}
 \pi \approx 4 \cdot \frac{P_{\text{inside}}}{P}
 \end{equation}$$
 
-![Simulation Results for 50000 data points](/results/simulation.png)
+![Simulation Results for 50000 data points](results/simulation)
 
 
 
